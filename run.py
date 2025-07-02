@@ -5,7 +5,6 @@ import numpy as np
 import time
 import mediapipe as mp
 
-
 mp_pose = mp.solutions.mediapipe.solutions.pose
 pose = mp_pose.Pose(static_image_mode=True, min_detection_confidence=0.3, model_complexity=2)
 mp_drawing = mp.solutions.mediapipe.solutions.drawing_utils
